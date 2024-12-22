@@ -283,19 +283,20 @@ body {
 .TabsInner {
   display: flex;
   flex-wrap: wrap;
-  width: 480px;
   flex-direction: row;
 }
 
 .tab-item {
   padding: 10px;
   border-radius: 8px;
-  width: 45%;
+  width: max-content;
   display: flex;
   flex-direction: column;
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin: 3px 0;
+  height: fit-content;
+  max-width: 400px;
 }
 
 .tab-item:hover {
@@ -324,6 +325,7 @@ body {
   width: 260px;
   height: fit-content;
   aspect-ratio: 1/0.8;
+  margin-left: 18px;
 }
 
 .TabImage img {
@@ -491,16 +493,14 @@ body {
   font-size: 36px;
   font-weight: bold;
   color: white;
+  margin-right: 99px;
 }
 
 .facard {
   background-color: #472281;
   color: white;
-  margin: 0 auto;
-  margin-left: 70px;
   width: 300px;
   height: max-content;
-  margin-left: 90px;
 }
 
 .facard h3 {
@@ -696,7 +696,7 @@ label {
   border-radius: 15px;
   padding: 17px;
   text-align: center;
-  margin-top: 168px;
+  margin-top: 50px;
 }
 
 .card-title {
@@ -714,10 +714,8 @@ label {
 
 .sec-card {
   display: flex;
-  margin-left: 104px;
-  gap: 15px;
+  gap: 50px;
 }
-
 
 .img-3 {
   margin-left: 40px;
@@ -968,11 +966,12 @@ label {
 
 .sec5-img1 {
   width: fit-content;
-  max-width: 93%;
+  max-width:50%;
   height: 60vh;
   position: absolute;
   z-index: 2;
   opacity: 11%;
+  margin-right:80px;
 }
 
 
@@ -986,7 +985,7 @@ label {
 }
 
 .contact-left {
-  margin-left: 80px;
+  margin: 0;
   margin-top: 30px;
   align-items: center;
   justify-content: center;
@@ -1178,10 +1177,6 @@ label {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-image: url('./img/OIP.jpg'); 
-            background-size: cover; 
-            background-position: center;  */
-  opacity: 0.2;
   z-index: -1;
 }
 
@@ -1427,10 +1422,14 @@ label {
   position: relative;
   overflow: hidden;
   margin-top: 40px;
+  display: flex;
+  
 }
 
 .icon-container {
   text-align: center;
+  padding: 0;
+  margin: 0%;
 }
 
 .icon-circle {
@@ -1565,64 +1564,13 @@ label {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
-  padding-left: 70px;
+  padding-left: 95px;
 }
 
 .B-section-page {
   background-color: #000024;
   color: white;
   padding: 40px 0;
-}
-
-.B-container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.B-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 40px;
-}
-
-.B-row-reverse {
-  flex-direction: row-reverse;
-}
-
-.B-text-block {
-  width: 48%;
-}
-
-.B-title {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.B-description {
-  font-size: 1rem;
-  line-height: 1.6;
-
-}
-
-.B-image-box {
-  width: 48%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0;
-}
-
-.B-image-text {
-  font-weight: bold;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-}
-
-.B-image-box img {
-  width: 100%;
 }
 
 .ContentArt {
@@ -1640,4 +1588,41 @@ label {
 .SolutionContent {
   position: relative;
   z-index: 2;
+}
+
+.B-section-page {
+  background-color: #0c0c20; 
+  color: #ffffff; 
+  padding: 50px 0;
+}
+
+
+
+
+.B-text-block {
+  width:90%; 
+  height: max-content;
+  margin-top: 30px;
+
+}
+
+.B-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.B-description {
+  font-size: 16px;
+  line-height: 1.8;
+
+
+}
+
+.B-image-box {
+  width: 100%;
+  height: max-content;
+}
+
+.B-image-box img {
+  max-width: 100%;
 }
