@@ -6,79 +6,95 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
   <link href="./bootstrap.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" type="text/css" href="./slick.css"/>
   <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./Ipad.css" />
   <title>Solution Types</title>
 </head>
 
 <body>
-  <section>
+  <section class="action">
     <div class="container">
 
       <div class="header">
         <div class="HeaderLogo">
           <img src="./img/HeaderLogo.png">
         </div>
-    
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
         <ul class="HeaderTabs">
           <li>
             Tab Number 1
             <i class="fa fa-angle-down"></i>
             <div class="Tabs">
               <div class="TabsInner">
-                <div class="tab-item">
-                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> Tab1</h1>
+                <div class="tab-item" onmouseover="changeImage('https:/img.freepik.com/premium-photo/whizztech-embracing-future-with-our-modern-blue-white-animated-bot-robot_983420-82167.jpg')">
+                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> 
+                    Tab1</h1>
                   <p>Lorem ipsum, dolor sit.</p>
                 </div>
-                <div class="tab-item">
-                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> Tab2</h1>
+                
+                <div class="tab-item"onmouseover="changeImage('https:/img.freepik.com/premium-photo/robot-marketing_540381-6227.jpg')">
+                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> 
+                    Tab2</h1>
                   <p>Lorem ipsum, dolor sit.</p>
                 </div>
-                <div class="tab-item">
-                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> Tab3</h1>
+                <div class="tab-item"onmouseover="changeImage('https:/img.freepik.com/premium-photo/robot-marketing_540381-6227.jpg')">
+                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> 
+                    Tab3</h1>
                   <p>Lorem ipsum, dolor sit .</p>
                 </div>
-                <div class="tab-item">
-                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> Tab4</h1>
+                <div class="tab-item" onmouseover="changeImage('https:/img.freepik.com/premium-photo/robot-marketing_540381-6227.jpg')">
+                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> 
+                    Tab4</h1>
                   <p>Lorem ipsum, dolor sit .</p>
                 </div>
-                <div class="tab-item">
-                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> Tab5</h1>
+                <div class="tab-item"onmouseover="changeImage('https:/img.freepik.com/premium-photo/cute-robot-toy-babies_893571-21098.jpg')">
+                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> 
+                    Tab5</h1>
                   <p>Lorem ipsum, dolor sit.</p>
                 </div>
-                <div class="tab-item">
-                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> Tab6</h1>
+                <div class="tab-item"onmouseover="changeImage('https:/img.freepik.com/premium-photo/robot-marketing_540381-6227.jpg')">
+                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> 
+                    Tab6</h1>
                   <p>Lorem ipsum, dolor sit.</p>
                 </div>
-                <div class="tab-item">
-                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> Tab7</h1>
+                <div class="tab-item"onmouseover="changeImage('https:/img.freepik.com/premium-photo/robot-marketing_540381-6227.jpg')">
+                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i>
+                    Tab7</h1>
                   <p>Lorem ipsum, dolor sit.</p>
                 </div>
-                <div class="tab-item">
-                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> Tab8</h1>
+                <div class="tab-item"onmouseover="changeImage('https:/static.vecteezy.com/system/resources/thumbnails/030/492/832/small_2x/cute-robot-on-a-white-background-ai-generated-free-photo.jpg')">
+                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i>
+                    Tab8</h1>
                   <p>Lorem ipsum, dolor sit.</p>
                 </div>
-                <div class="tab-item">
-                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> Tab9</h1>
+                <div class="tab-item"onmouseover="changeImage('https:/img.freepik.com/premium-psd/friendly-cute-cartoon-robot-created-with-generative-ai_916303-4556.jpg')">
+                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i>
+                    Tab9</h1>
                   <p>Lorem ipsum, dolor sit .</p>
                 </div>
-                <div class="tab-item">
-                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> Tab10</h1>
+                <div class="tab-item"onmouseover="changeImage('https:/img.freepik.com/premium-photo/cute-cartoon-characters-happy-robot-image-white-background-ai-generated-art_210643-3272.jpg?w=2000')">
+                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i>
+                    Tab10</h1>
                   <p>Lorem ipsum, dolor sit.</p>
                 </div>
-                <div class="tab-item">
-                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> Tab11</h1>
+                <div class="tab-item"onmouseover="changeImage('https:/th.bing.com/th/id/OIP.DALCxyA6X1_vT7tWb1fYsgHaHa?w=626&h=626&rs=1&pid=ImgDetMain')">
+                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> 
+                    Tab11</h1>
                   <p>Lorem ipsum, dolor sit.</p>
                 </div>
-                <div class="tab-item">
-                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i> Tab12</h1>
+                <div class="tab-item"onmouseover="changeImage('https:/img.freepik.com/premium-photo/robot-with-head-that-says-robot-it_873925-68152.jpg')">
+                  <h1><i class="fa-solid fa-circle-plus" style="color: #670981;"></i>
+                    Tab12</h1>
                   <p>Lorem ipsum, dolor sit .</p>
                 </div>
               </div>
               <div class="TabImage">
-                <img src="./img/66bc8f6c4fa9c_about-img-thumb.jpg">
+                <img src="./img/66bc8f6c4fa9c_about-img-thumb.jpg" id="timage">
               </div>
             </div>
+            
           </li>
           <li>
             Tab Number 2
@@ -140,49 +156,109 @@
         </div>
     </div>
   </section>
-  <section>  
+  <section class="action1">  
   <div class="Hero-Section">
    <div class="container">
-    <div class="LeftFlex">
-      <div class="Sqaure">
-        <div class="SqaureSlide">
-          <h1>Solution types</h1>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur consequatur adipisci voluptas quas magnam ipsum eum
-            aperiam eveniet iste, ducimus quis nisi blanditiis? Voluptate
-            nisi aperiam nulla ab totam doloremque!
-          </p>
-
-          <a href="#">
-            <span class="corner top-left"></span>
-            <span class="corner top-right"></span>
-            <span class="corner bottom-left"></span>
-            <span class="corner bottom-right"></span>
-            More Info
-          </a>
-        </div>
-
-   </div>
-
-
-        <!-- <div class="Button"> -->
-        <!-- <div class="slider-dots text-center mt-3">
-            <span class="dot active"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>   -->
-        <!-- </div> -->
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <div class="LeftFlex">
+          <div class="Sqaure">
+            <div class="SqaureSlide">
+              <h1>Solution types1</h1>
+    
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur consequatur adipisci voluptas quas magnam ipsum eum
+                aperiam eveniet iste, ducimus quis nisi blanditiis? Voluptate
+                nisi aperiam nulla ab totam doloremque!
+              </p>
+    
+             
+              <a href="#">
+                <span class="corner top-left"></span>
+                <span class="corner top-right"></span>
+                <span class="corner bottom-left"></span>
+                <span class="corner bottom-right"></span>
+                More Info
+              </a>
+            </div>
+            <div class="SqaureSlide">
+              <h1>Solution types2</h1>
+    
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur consequatur adipisci voluptas quas magnam ipsum eum
+                aperiam eveniet iste, ducimus quis nisi blanditiis? Voluptate
+                nisi aperiam nulla ab totam doloremque!
+              </p>
+    
+             <br>
+              <a href="#">
+                <span class="corner top-left"></span>
+                <span class="corner top-right"></span>
+                <span class="corner bottom-left"></span>
+                <span class="corner bottom-right"></span>
+                More Info
+              </a>
+            </div>
+            <div class="SqaureSlide">
+              <h1>Solution types3</h1>
+    
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur consequatur adipisci voluptas quas magnam ipsum eum
+                aperiam eveniet iste, ducimus quis nisi blanditiis? Voluptate
+                nisi aperiam nulla ab totam doloremque!
+              </p>
+             
+             <br>
+              <a href="#">
+                <span class="corner top-left"></span>
+                <span class="corner top-right"></span>
+                <span class="corner bottom-left"></span>
+                <span class="corner bottom-right"></span>
+                More Info
+              </a>
+            </div>
+            <div class="SqaureSlide">
+              <h1>Solution types4</h1>
+    
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur consequatur adipisci voluptas quas magnam ipsum eum
+                aperiam eveniet iste, ducimus quis nisi blanditiis? Voluptate
+                nisi aperiam nulla ab totam doloremque!
+              </p>
+    
+             <br>
+             <div>
+              <a href="#">
+                <span class="corner top-left"></span>
+                <span class="corner top-right"></span>
+                <span class="corner bottom-left"></span>
+                <span class="corner bottom-right"></span>
+                More Info
+              </a>
+           
+             </div>
+              
+            </div>
+    
+       </div>
+         
+          </div>
       </div>
     </div>
-    <img src="./img/BannerArt.png" class="BannerArt" />
+   
+    </div>
+    <div class="col-md-6>">
+      <img src="./img/BannerArt.png" class="BannerArt" />
+      <img
+      src="./img/Screenshot_24-12-2024_152040_.jpeg"
+      class="herosectioBG">
+    </div>
     <!-- <img src="./img/SlideArt1.png" class="BannerArt2" />  -->
-    <img
-    src="./img/Screenshot_24-12-2024_152040_.jpeg"
-    class="herosectioBG">
+  
   </div>
   <button type="button" class="WhatsAppStickyBtn">
     <img src="./img/WhatsappIcon.png" />
@@ -191,7 +267,7 @@
   </div>
   </section>
  
-<section>
+<section class="section-about">
   <div class="container">
     <div class="row">
 
@@ -223,132 +299,152 @@
 </section>
  
 
-
- <div class="container">
-  <div class="row">
+<section class="action1 ThemeBG">
+  <div class="container">
     <div class="icon-section">
-      <div class="col-md-3">
-        <div class="icon-item">
-          <i class="fa-solid fa-circle-plus" style="color: #fff; font-size: 24px;"></i>
-          <h3>Lorem ipsum</h3>
-          <p>Lorem ipsum</p>
+  
+  
+      <div class="row">
+        <div class="col-md-3">
+          <div class="icon-item">
+            <i class="fa-solid fa-circle-plus" style="color: #fff; font-size: 24px;"></i>
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum</p>
+          </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="icon-item">
-          <i class="fa-solid fa-circle-plus" style="color: #fff; font-size: 24px;"></i>
-          <h3>Lorem ipsum</h3>
-          <p>Lorem ipsum</p>
+        <div class="col-md-3">
+          <div class="icon-item">
+            <i class="fa-solid fa-circle-plus" style="color: #fff; font-size: 24px;"></i>
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum</p>
+          </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="icon-item">
-          <i class="fa-solid fa-circle-plus" style="color: #fff; font-size: 24px;"></i>
-          <h3>Lorem ipsum</h3>
-          <p>Lorem ipsum</p>
+        <div class="col-md-3">
+          <div class="icon-item">
+            <i class="fa-solid fa-circle-plus" style="color: #fff; font-size: 24px;"></i>
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum</p>
+          </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="icon-item">
-          <i class="fa-solid fa-circle-plus" style="color: #fff; font-size: 24px;"></i>
-          <h3>Lorem ipsum</h3>
-          <p>Lorem ipsum</p>
+        <div class="col-md-3">
+          <div class="icon-item">
+            <i class="fa-solid fa-circle-plus" style="color: #fff; font-size: 24px;"></i>
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+    
     </div>
-   
+</section>
 
+  
+   
+<section class="action3">
   <div class="container py-5">
-    <div class="row">
+    <div class="card-s">
+      <div class="row">
+        <div class="col-md-4">
+               <div class="card bg-purple text-center text-white p-4">
+                 <h2><i class="fa-solid fa-square-plus" style="color: #4a045d;"></i>
+                   Lorem ipsum</h2>
+                 <p>
+                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                   dolore magna aliquam erat volutpat. Ut wisi enim ad
+                 </p>
+               </div>
+             </div>
+             <div class="col-md-4">
+               <div class="card bg-purple text-center text-white p-4">
+                 <h2><i class="fa-solid fa-square-plus" style="color: #4a045d;"></i>
+                   Lorem ipsum</h2>
+                 <p>
+                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                   dolore magna aliquam erat volutpat. Ut wisi enim ad
+                 </p>
+               </div>
+             </div>
+             <div class="col-md-4">
+               <div class="card bg-purple text-center text-white p-4">
+                 <h2> <i class="fa-solid fa-square-plus" style="color: #4a045d;"></i>
+                   Lorem ipsum</h2>
+                 <p>
+                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                   dolore magna aliquam erat volutpat. Ut wisi enim ad
+                 </p>
+               </div>
+             </div>
+             </div>
+    </div>
+    </div>
+</section>
+
+  
+  <br>
+  <section class="action1">
+
+    <div class="container">
+      <h2 style="text-align: center; margin: 0 0 0 0 ;width: 91%;">Lorem ipsum</h2><br>
+      <div class="row" style="text-align: center;margin-right:50px;">
+        <div class="col-md-3">Lorem</div>
+        <div class="col-md-3">Lorem</div>
+        <div class="col-md-3">Lorem ipsum dolor sit</div>
+        <div class="col-md-3">Lorem ipsum dolor</div>
+      </div>
+    </div>
+  
+    
+    <div class="container py-5 title-section">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Lorem ipsum</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-rcard">
+    <div class="container py-5">
       <div class="card-s">
- <div class="col-md-4">
-        <div class="card bg-purple text-center text-white p-4">
-          <h2><i class="fa-solid fa-square-plus" style="color: #4a045d;"></i>
-            Lorem ipsum</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore magna aliquam erat volutpat. Ut wisi enim ad
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card bg-purple text-center text-white p-4">
-          <h2><i class="fa-solid fa-square-plus" style="color: #4a045d;"></i>
-            Lorem ipsum</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore magna aliquam erat volutpat. Ut wisi enim ad
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card bg-purple text-center text-white p-4">
-          <h2> <i class="fa-solid fa-square-plus" style="color: #4a045d;"></i>
-            Lorem ipsum</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore magna aliquam erat volutpat. Ut wisi enim ad
-          </p>
-        </div>
-      </div>
+        <div class="row">
+          <div class="col-md-4">
+                 <div class="card bg-purple text-center text-white p-4">
+                   <h2>
+                     Lorem ipsum</h2>
+                   <p>
+                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                     dolore magna aliquam erat volutpat. Ut wisi enim ad
+                   </p>
+                 </div>
+               </div>
+               <div class="col-md-4">
+                 <div class="card bg-purple text-center text-white p-4">
+                   <h2>
+                     Lorem ipsum</h2>
+                   <p>
+                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                     dolore magna aliquam erat volutpat. Ut wisi enim ad
+                   </p>
+                 </div>
+               </div>
+               <div class="col-md-4">
+                 <div class="card bg-purple text-center text-white p-4">
+                   <h2> 
+                     Lorem ipsum</h2>
+                   <p>
+                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                     dolore magna aliquam erat volutpat. Ut wisi enim ad
+                   </p>
+                 </div>
+               </div>
+               </div>
       </div>
      
     </div>
-  </div>
-  <br>
-  <div class="container">
-    <h2 style="text-align: center; margin: 0 0 0 0 ;width: 91%;">Lorem ipsum</h2><br>
-    <div class="row" style="text-align: center;margin-right:50px;">
-      <div class="col-md-3">Lorem</div>
-      <div class="col-md-3">Lorem</div>
-      <div class="col-md-3">Lorem ipsum dolor sit</div>
-      <div class="col-md-3">Lorem ipsum dolor</div>
-    </div>
-  </div>
 
+  </section>
   
-  <div class="container py-5 title-section">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2>Lorem ipsum</h2>
-      </div>
-    </div>
-  </div>
-
-  <div class="container py-5">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="facard p-4 text-center">
-          <h3>Lorem ipsum</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore magna aliquam erat volutpat.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="facard p-4 text-center">
-          <h3>Lorem ipsum</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore magna aliquam erat volutpat.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="facard p-4 text-center">
-          <h3>Lorem ipsum</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore magna aliquam erat volutpat.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div><br><br><br>
-  <section>
+  <section class="action1">
     <div class="container pt-5">
       <div class="row">
         <div class="col-md-6">
@@ -358,7 +454,7 @@
               consectetur adipiscing elit.</p>
             <p><i class="fa-solid fa-envelope" style="color: #a950ff;"></i> Lorem ipsum dolor sit amet, consectetur.</p>
             <div class="contact-map">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing el.</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3383.363115520315!2d35.83602892457353!3d32.00527627399572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca1bdfe157295%3A0x1d7c1cbc09d81e78!2z2LTYsdmD2Kkg2K3ZiNmEINin2YTYudin2YTZhSDZhNmE2K_Yudin2YrYqSDZiNin2YTYpdi52YTYp9mGINmI2KfZhNiq2LPZiNmK2YI!5e0!3m2!1sar!2sjo!4v1736246150260!5m2!1sar!2sjo" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
@@ -394,47 +490,55 @@
         </div>
       </div>
     </div>
+  </section>
     <section class="cont">
       <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="footer-left">
-              <img src="./img/HeaderLogo.png" alt="Tuwaiq Robotic" class="footer-logo">
-              <p>2023 - 2024 Tuwaiq Robotics Innovations. All Rights Reserved.</p>
+        <div class="cont-1">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-left">
+                <img src="./img/HeaderLogo.png" alt="Tuwaiq Robotic" class="footer-logo">
+                <p>2023 - 2024 Tuwaiq Robotics Innovations. All Rights Reserved.</p>
+              </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="footer-middle">
-              <h5>Contact us</h5>
-              <ul>
-                <li><i class="fa-solid fa-envelope" style="color: #fcfcfd;"></i> Lorem ipsum</li>
-                <li><i class="fa-solid fa-phone" style="color: #ffffff;"></i> Lorem ipsum</li>
-                <li><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Lorem ipsum</li>
-                <li><i class="fa-brands fa-facebook" style="color: #a950ff;"></i>
-                  <i class="fa-brands fa-instagram" style="color: #a950ff;"></i>
-                  <i class="fa-brands fa-linkedin" style="color: #a950ff;"></i>
-                </li>
-              </ul>
+            <div class="col-md-4">
+              <div class="footer-middle">
+                <h5>Contact us</h5>
+                <ul>
+                  <li><i class="fa-solid fa-envelope" style="color: #fcfcfd;"></i> Lorem ipsum</li>
+                  <li><i class="fa-solid fa-phone" style="color: #ffffff;"></i> Lorem ipsum</li>
+                  <li><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Lorem ipsum</li>
+                  <li><i class="fa-brands fa-facebook" style="color: #a950ff;"></i>
+                    <i class="fa-brands fa-instagram" style="color: #a950ff;"></i>
+                    <i class="fa-brands fa-linkedin" style="color: #a950ff;"></i>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="footer-right">
-              <h5>Company</h5>
-              <ul>
-                <li>About us</li>
-                <li>Vision</li>
-                <li>Mission</li>
-              </ul>
+            <div class="col-md-4">
+              <div class="footer-right">
+                <h5>Company</h5>
+                <ul>
+                  <li>About us</li>
+                  <li>Vision</li>
+                  <li>Mission</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
+     
       </div>
     </section>
   
   </section>
   
-  <script src="./jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="./jquery-1.11.0.min.js"></script>
   <script src="./bootstrap.bundle.min.js"></script>
+  <script src="./slick.min.js"></script>
+  <script src="./script.js"></script>
+
+
 
 </body>
 

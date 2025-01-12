@@ -1,0 +1,87 @@
+@media only screen and (max-width: 1200px) {
+
+  :root {
+    overflow-x: hidden!important;
+  }
+
+  .Tabs {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+    max-width: unset;
+}
+
+  .HeaderTabs li {
+    position: unset;
+}
+.bg-purple{
+  width: 100%;
+  margin-left: -6px;
+}
+.card-s{
+  width: 90%;
+}
+
+.card-s {
+  width: 109%;
+  margin-left: -36px;}
+  .bg-purple {
+    width: 109%;
+    margin-left: -6px;}
+
+    .footer-right {
+      margin-left: 117px;
+  }
+}
+@media (max-width: 900px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .HeaderTabs {
+    display: none; 
+    flex-direction:row; 
+    position: absolute;
+    top:152px;
+    right: 0;
+    left: 30px;
+    width: 100%;
+    padding: 10px 0;
+
+  }
+
+  .HeaderTabs li {
+    margin: 10px 0;
+  }
+
+  .HeaderTabs.active {
+    display: flex; 
+  }
+  .Tabs {
+    position: absolute;
+    display: flex
+;
+    top: 50px;
+    left: 0;
+    background: #fffefe;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: max-content;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    opacity: 0;
+    transition: all 0.4s ease;
+    z-index: 1000;
+    max-width: 800px;
+    padding: 40px;
+}
+.TabsInner {
+  display: flex
+;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+}
