@@ -7,7 +7,7 @@
         display: block;
         margin: 0 auto;
         width: 100%;
-        font-size: 33px;
+        font-size: 23px;
         font-weight: 400;
         text-shadow: 0px 0px 11px #ffffff75;
     }
@@ -24,7 +24,7 @@
     }
     .contact-left h2 {
         text-align: center;
-        font-size: 36px;
+        font-size:23px;
         font-weight: bold;
         margin-bottom: 20px;
     }
@@ -61,7 +61,7 @@
             position: fixed;
             left: 0;
             top: 0;
-            width: 213px;
+            width: 265px;
             height: 100%;
             background: #ffffff;
             padding: 20px;
@@ -156,10 +156,60 @@
     text-align: center;
     width: 100%;
 } 
+.HeaderContact{
+    padding: 0%;
 }
+.section-ti{
+    font-size: 23px;
+}
+.section-des{
+    font-size: 13px;
+}
+.f-call-title{
+    font-size: 23px;
+}
+.B-title{
+    font-size: 23px;
+}
+.content-description{
+    font-size: 13px;
+}
+.B-description {
+    font-size: 13px;
+}
+.section-title {
+    font-size: 1.5rem;
+}
+.f-section-title {
+    font-size: 1.5rem;}
 
 
+    .section5-title {
+        font-size: 1.5rem;}
+
+
+    .section3-title {
+     font-size: 1.5rem;}
+    .title-section h2 {
+    font-size: 23px;}
+    .card h2 {
+     font-size: 23px;
+    font-weight: bold;}
+    
+    .about-text h1 {
+        font-size: 23px;
+    }   
+    .SqaureSlide h1 {
+        font-size: 23px;}
+
+        .SqaureSlide1 h1 {
+            font-size: 23px;}
     
 
 
+
+
+    }
+
    
+
