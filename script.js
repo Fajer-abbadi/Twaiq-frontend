@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+
+  GetScreenHeight()
    
 $('.Sqaure').slick({
     arrows: false,
@@ -38,6 +40,13 @@ $('.Sqaure').slick({
 
    GetTabs()
 })
+
+
+$(window).on('resize',function(){
+  GetScreenHeight()
+})
+
+
 
 function changeImage(url){
   $("#timage").attr("src",url);
@@ -86,3 +95,11 @@ function ShowSideMenuTab(el){
 
 
 
+function GetScreenHeight(){
+  var WindowHeight = parseInt($(window).height());
+  var HeaderHeight = parseInt($('#Header').height())
+  var HeightCalculated = parseInt(WindowHeight - HeaderHeight)
+  if($(window).width() >= 1200){
+    $('.Hero-Section').css('min-height',HeightCalculated)
+  }
+}
