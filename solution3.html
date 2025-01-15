@@ -10,6 +10,8 @@
 
   <link rel="stylesheet" href="./style.css" />
   <link rel="stylesheet" href="./Ipad.css" />
+  <link rel="stylesheet" href="./mobile.css" />
+
 
   <title>Solution Types</title>
 </head>
@@ -22,7 +24,8 @@
         <div class="HeaderLogo">
           <img src="./img/HeaderLogo.png">
         </div>
-    
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button> 
+
         <ul class="HeaderTabs">
           <li>
             Tab Number 1
@@ -220,7 +223,7 @@
       </div>
     </div>
 <div class="container">
-  <div class="row justify-content-between">
+    <div class="row cont-ro">
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="content-card">
           <h3 class="card-title"> <i class="fa-solid fa-circle-plus" style="color: #fff; font-size: 24px;"></i> Lorem
@@ -272,6 +275,8 @@
         </div>
       </div>
   </div>
+ 
+ 
   </div>
 </div>
   </section>
@@ -279,22 +284,22 @@
   <section class="image-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 col-lg-3 col-sm-12">
           <div class="image-box3">
             <img src="./img/OIP.jpg">
           </div>
         </div>
-        <div class="col-md-3 ">
+        <div class="col-md-3 col-lg-3 col-sm-12 ">
           <div class="image-box3">
             <img src="./img/artificial-intelligence-future-connecting-minds-machines-worldwide_705284-2161.avif">
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-lg-3 col-sm-12">
           <div class="image-box3">
             <img src="./img/us-robot-head.avif">
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-lg-3 col-sm-12">
           <div class="image-box3">
             <img src="./img/OIP.jpg">
           </div>
@@ -306,7 +311,7 @@
   <section class="section-lorem">
     <div class="container">
       <div class="row text-center mb-4">
-        <div class="col-12">
+        <div class="col-md-12 col-sm-12 col-lg-12">
           <div class="content-wrapper">
             <h1 class="section-title">Lorem ipsum</h1>
             <p class="section-description">
@@ -320,7 +325,7 @@
       </div>
   
       <div class="row purple-bg py-4">
-        <div class="col-3">
+        <div class="col-md-3 col-sm-12 col-lg-3">
           <div class="icon-wrapper text-center">
             <div class="icon-circle">
               <i class="fa fa-plus"></i>
@@ -328,7 +333,7 @@
             <p class="icon-text">Lorem ipsum</p>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-md-3 col-sm-12 col-lg-3">
           <div class="icon-wrapper text-center">
             <div class="icon-circle">
               <i class="fa fa-plus"></i>
@@ -336,7 +341,7 @@
             <p class="icon-text">Lorem ipsum</p>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-md-3 col-sm-12 col-lg-3">
           <div class="icon-wrapper text-center">
             <div class="icon-circle">
               <i class="fa fa-plus"></i>
@@ -344,7 +349,7 @@
             <p class="icon-text">Lorem ipsum</p>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-md-3 col-sm-12 col-lg-3">
           <div class="icon-wrapper text-center">
             <div class="icon-circle">
               <i class="fa fa-plus"></i>
@@ -359,7 +364,7 @@
   <section class="action1">
     <div class="container py-5">
       <div class="row">
-        <div class="col">
+        <div class="col-lg-12 col-md-12 col-sm-12">
           <div class="video-section">
             <video autoplay muted loop playsinline>
               <source src="./videos/istockphoto-1207213453-640_adpp_is.mp4" />
@@ -381,87 +386,112 @@
   </section>
   <section class="f-section-images">
     <div class="container">
-      <div class="f-row-center">
+      <div class="text-center ">
         <h1 class="f-section-title">Lorem ipsum</h1>
         <p class="f-section-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
           dolore magna aliquam erat volutpat.
         </p>
       </div>
-
-      <div class="f-row">
-        <div class="f-col">
-          <div class="f-card">
-            <div class="f-card-image"><img src="./img/OIP.jpg"></div>
-            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br> placeat aut eaque ex.</div>
-          </div>
-        </div>
-        <div class="f-col">
-          <div class="f-card">
+  <div class="container">
+    <div class="ro-image">
+      <div class="row cont-ro">
+        <div class="col-sm-6 col-md-4 col-lg-2 ">
+          <div class="f-card text-center">
             <div class="f-card-image">
-              <img src="./img/OIP.jpg">
+              <img src="./img/OIP.jpg" class="img-fluid" alt="Image 6">
             </div>
-            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br> placeat aut eaque ex.</div>
+            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br>placeat aut eaque ex.</div>
           </div>
         </div>
-        <div class="f-col">
-          <div class="f-card">
-            <div class="f-card-image"><img src="./img/OIP.jpg"></div>
-            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br> placeat aut eaque ex.</div>
+        <div class="col-sm-6 col-md-4 col-lg-2 ">
+          <div class="f-card text-center">
+            <div class="f-card-image">
+              <img src="./img/OIP.jpg" class="img-fluid" alt="Image 7">
+            </div>
+            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br>placeat aut eaque ex.</div>
           </div>
         </div>
-        <div class="f-col">
-          <div class="f-card">
-            <div class="f-card-image"><img src="./img/OIP.jpg"></div>
-            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br> placeat aut eaque ex.</div>
+        <div class="col-sm-6 col-md-4 col-lg-2 ">
+          <div class="f-card text-center">
+            <div class="f-card-image">
+              <img src="./img/OIP.jpg" class="img-fluid" alt="Image 8">
+            </div>
+            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br>placeat aut eaque ex.</div>
           </div>
         </div>
-        <div class="f-col">
-          <div class="f-card">
-            <div class="f-card-image"><img src="./img/OIP.jpg"></div>
-            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br> placeat aut eaque ex.</div>
+        <div class="col-sm-6 col-md-4 col-lg-2 ">
+          <div class="f-card text-center">
+            <div class="f-card-image">
+              <img src="./img/OIP.jpg" class="img-fluid" alt="Image 9">
+            </div>
+            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br>placeat aut eaque ex.</div>
           </div>
         </div>
-      </div>
-
-      <div class="f-row">
-        <div class="f-col">
-          <div class="f-card">
-            <div class="f-card-image"><img src="./img/OIP.jpg"></div>
-            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br> placeat aut eaque ex.</div>
-          </div>
-        </div>
-        <div class="f-col">
-          <div class="f-card">
-            <div class="f-card-image"><img src="./img/OIP.jpg"></div>
-            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br> placeat aut eaque ex.</div>
-          </div>
-        </div>
-        <div class="f-col">
-          <div class="f-card">
-            <div class="f-card-image"><img src="./img/OIP.jpg"></div>
-            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br> placeat aut eaque ex.</div>
-          </div>
-        </div>
-        <div class="f-col">
-          <div class="f-card">
-            <div class="f-card-image"><img src="./img/OIP.jpg"></div>
-            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br> placeat aut eaque ex.</div>
-          </div>
-        </div>
-        <div class="f-col">
-          <div class="f-card">
-            <div class="f-card-image"><img src="./img/OIP.jpg"></div>
-            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br> placeat aut eaque ex.</div>
+        <div class="col-sm-6 col-md-4 col-lg-2 ">
+          <div class="f-card text-center">
+            <div class="f-card-image">
+              <img src="./img/OIP.jpg" class="img-fluid" alt="Image 10">
+            </div>
+            <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br>placeat aut eaque ex.</div>
           </div>
         </div>
       </div>
     </div>
+<div class="ro-image">
+  <div class="row cont-ro ">
+    <div class="col-sm-6 col-md-4 col-lg-2 ">
+      <div class="f-card text-center">
+        <div class="f-card-image">
+          <img src="./img/OIP.jpg" class="img-fluid" alt="Image 6">
+        </div>
+        <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br>placeat aut eaque ex.</div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-2">
+      <div class="f-card text-center">
+        <div class="f-card-image">
+          <img src="./img/OIP.jpg" class="img-fluid" alt="Image 7">
+        </div>
+        <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br>placeat aut eaque ex.</div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-2 ">
+      <div class="f-card text-center">
+        <div class="f-card-image">
+          <img src="./img/OIP.jpg" class="img-fluid" alt="Image 8">
+        </div>
+        <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br>placeat aut eaque ex.</div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-2 ">
+      <div class="f-card text-center">
+        <div class="f-card-image">
+          <img src="./img/OIP.jpg" class="img-fluid" alt="Image 9">
+        </div>
+        <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br>placeat aut eaque ex.</div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-2 ">
+      <div class="f-card text-center">
+        <div class="f-card-image">
+          <img src="./img/OIP.jpg" class="img-fluid" alt="Image 10">
+        </div>
+        <div class="f-card-text">Lorem ipsum dolor<br>Lorem ipsum dolor<br>placeat aut eaque ex.</div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+ 
+    
+    </div>
   </section>
+  
   <section class="action1">
     <div class="container pt-5">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 col-lg-6 col-sm-12">
           <div class="contact-left">
             <h2>Contact Us</h2>
             <p><i class="fa-sharp fa-solid fa-location-dot" style="color: #a950ff;"></i> Lorem ipsum dolor sit amet,
@@ -473,7 +503,7 @@
           </div>
         </div>
   
-        <div class="col-md-6">
+        <div class="col-md-6 col-lg-6 col-sm-12">
           <div class="contact-right">
             <div class="contact-form">
               <div class="form-group">
@@ -505,43 +535,54 @@
       </div>
     </div>
   </section>
- 
-  <section class="cont">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="footer-left">
-            <img src="./img/HeaderLogo.png" alt="Tuwaiq Robotic" class="footer-logo">
-            <p>2023 - 2024 Tuwaiq Robotics Innovations. All Rights Reserved.</p>
+    <section class="cont">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-sm-6">
+            <div class="footer-left">
+              <img src="./img/HeaderLogo.png" alt="Tuwaiq Robotic" class="footer-logo">
+            </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="footer-middle">
-            <h5>Contact us</h5>
-            <ul>
-              <li><i class="fa-solid fa-envelope" style="color: #fcfcfd;"></i> Lorem ipsum</li>
-              <li><i class="fa-solid fa-phone" style="color: #ffffff;"></i> Lorem ipsum</li>
-              <li><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Lorem ipsum</li>
-              <li><i class="fa-brands fa-facebook" style="color: #a950ff;"></i>
-                <i class="fa-brands fa-instagram" style="color: #a950ff;"></i>
-                <i class="fa-brands fa-linkedin" style="color: #a950ff;"></i>
-              </li>
-            </ul>
+          <div class="col-md-4 col-lg-4 col-sm-6">
+            <div class="footer-middle">
+              <h5>Contact us</h5>
+              <ul>
+                <li><i class="fa-solid fa-envelope" style="color: #fcfcfd;"></i> Lorem ipsum</li>
+                <li><i class="fa-solid fa-phone" style="color: #ffffff;"></i> Lorem ipsum</li>
+                <li><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Lorem ipsum</li>
+                <li><i class="fa-brands fa-facebook" style="color: #a950ff;"></i>
+                  <i class="fa-brands fa-instagram" style="color: #a950ff;"></i>
+                  <i class="fa-brands fa-linkedin" style="color: #a950ff;"></i>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="footer-right">
-            <h5>Company</h5>
-            <ul>
-              <li>About us</li>
-              <li>Vision</li>
-              <li>Mission</li>
-            </ul>
+          <div class="col-md-4 col-lg-4 col-sm-6">
+            <div class="footer-right">
+              <h5>Company</h5>
+              <ul>
+                <li>About us</li>
+                <li>Vision</li>
+                <li>Mission</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
+    </section>
+  <div class="SideMenu">
+    <div class="SideMenuInner">
+       <div class="SideMenuFade" onclick="$('.SideMenu').fadeOut(600)"></div>
+       <div class="SideMenuDiv">
+         <ul >
+           <li>Tab 1</li>
+           <li>Tab 2</li>
+           <li>Tab 3</li>
+           <li>Tab 4</li>
+         </ul>
+       </div>
     </div>
-  </section>
+ </div>
   <script type="text/javascript" src="./jquery-1.11.0.min.js"></script>
   <script src="./bootstrap.bundle.min.js"></script>
   <script src="./slick.min.js"></script>

@@ -19,10 +19,24 @@ $('.Sqaure').slick({
     centerPadding: '20px',
     infinite: true,
     speed: 300,
-    slidesToShow: 3
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
   });
   
   $('.custom-row.slick-dots li').html('<div></div>')
+
+   GetTabs()
 })
 
 function changeImage(url){
@@ -50,10 +64,23 @@ function toggleContent(elemant) {
 }
 
 function toggleMenu(ele) {
-  $('.HeaderTabs').toggleClass('active');
-  $(ele).toggleClass('ActiveMenuButton');
+   $('.SideMenu').show()
 }
 
 
 
+
+function GetTabs(){
+  var Content = $('.HeaderTabs').html()
+   if($(window).width() <= 1200){
+    $('.SideMenu ul').html(Content)
+    $('.SideMenu ul li').attr('onclick','ShowSideMenuTab($(this))')
+    $('.HeaderTabs').remove()
+   }
+}
+
+function ShowSideMenuTab(el){
+  $('.SideMenu .Tabs').removeClass('VisibleTab')
+  el.find('.Tabs').addClass('VisibleTab')
+}
 
