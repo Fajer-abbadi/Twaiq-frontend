@@ -1494,7 +1494,7 @@ label {
 }
 
 .section-lorem {
-  background-color: #0d0d24;
+  background-color: #21104e;
   padding: 0px 0;
   color: white;
   overflow: hidden;
@@ -1558,12 +1558,15 @@ label {
 }
 
 .lor-i {
-  background-color: #21104e;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px 0;
   width: 100%;
+}
+.action-lore{
+  background-color: #21104e;
+
 }
 
 .icon {
@@ -1992,9 +1995,6 @@ margin: 18px auto;}
 .nav-right {
   display: flex; 
 }
-
-
-
 
 .SideMenu {
    display: none;
